@@ -67,3 +67,7 @@ git init ->
     git push -u origin main
 
     Then from the next time, git push will be working , no need to write origin main anymore
+
+
+
+[Note-> It is easy to make a folder on Github first and start there and then clone as it is a much simplier process]
