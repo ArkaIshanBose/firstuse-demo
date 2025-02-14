@@ -10,7 +10,7 @@
 Clone and status  -->
 
 ->Clone -> Cloning a Repository on our local machine (From github to our local system)
-    git-clone link (HTTPS link) 
+    git-clone link (HTTPS link)  -><CODE> and click on HTTPS link in Github
 
 ->Status->Display the state of the code
     git-status
@@ -86,4 +86,39 @@ Branch Commands->
 -> git checkout <branch-name> (TO Navigate)
 -> git checkout -b <new-branch-name> (To Create a New Branch)
 -> git branch -d <branch-name> (TO delete a Branch)
+-> git psuh origin feature1
 
+Merging Code -> (Feature 1 branch + main branch)
+Way1->
+git diff <branchname> -> To compare , commit , files and more
+git merge <branchname> -> To merge two branches
+
+Way2->
+Create a PR (Pull Request)-> It lets you tell others about changes you have pushed to a branch in a repository on Github (From Github.com)
+
+Pull Command -> Used to fetch and download content from a remote repo and immediately update the local repo to match that content 
+    git pull origin main
+
+
+->Resolving merge conflicts ->
+An event that takes places when git is unable to automatically resolve the difference in code between two commits
+then we do it manually . Watch video to better understand again
+
+Undoing Changes -> 
+
+    Case 1 : staged change 
+                git reset <filename>
+                git reset
+
+    Case 2 : commited changes (For one commit)
+                git reset HEAD-1 (Head~1 is the address of the latest commit)
+
+    Case 3 : Commited Changes (For many commits)
+                git reset <commit-hash>
+                git reset --hard <commit hash>
+
+    git log -> is used to find the commit hash and check the commits
+
+
+Fork->A fork is a New Repository that shares code and visibility settings with the orignal "upstream" repository. 
+Fork is a Rough Copy.
