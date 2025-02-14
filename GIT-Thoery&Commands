@@ -71,3 +71,19 @@ git init ->
 
 
 [Note-> It is easy to make a folder on Github first and start there and then clone as it is a much simplier process]
+
+
+Work Flow -> 
+Local Git-> Git hub repo -> Clone ->changes -> add -> commit ->push
+
+
+
+Git Branches -> It is used to branch multiple copy of the codes and work on the features separately
+Features branch and a main branch. At the end we Marge the side and the main branch for the ultimate product
+Branch Commands->
+-> git branch (Is used to check the cuurent branch of our repo) -> Usually main
+-> git branch -m "To rename Branch"
+-> git checkout <branch-name> (TO Navigate)
+-> git checkout -b <new-branch-name> (To Create a New Branch)
+-> git branch -d <branch-name> (TO delete a Branch)
+
